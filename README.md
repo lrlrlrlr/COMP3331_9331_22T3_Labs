@@ -20,6 +20,10 @@ For M14B and F12A students
   - Link: https://unsw.zoom.us/my/ruitut   
   - Schedule:
     - W5: week assignment overview: How to start from 0. basic code demo.
+     - What to do?
+     - How to write the code?
+     - Demo code for config 1.
+     - Recording link: (todo)
     - W7: assignment structure design 
     - W8: assignment key functions demo and discussion
     - W9: How to do submission and testcase 
