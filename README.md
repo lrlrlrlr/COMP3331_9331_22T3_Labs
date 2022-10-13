@@ -21,12 +21,31 @@ For M14B and F12A students
   - Schedule:
     - W5: week assignment overview: How to start from 0. basic code demo.
       - What is the task?
-      - How to write the code?
-      - Demo code for config 1.
+      - Demo code for:
+        - single login
+        - block
+        - multiple user login at the sametime
       - Recording link: (todo)
     - W7: assignment structure design 
-    - W8: assignment key functions demo and discussion
+      - app design / protocol design
+      - data structure
+      - basic python operations
+        - how to create/delete/modify txt file
+        - how to send/receive json object between server/clients
+        - Demo code for:
+          - EDG
+          - UED
+          - DTE
+          - AED
+        
+    - W8: assignment P2P key functions demo and discussion
+        - program stucture for P2P (UDP) part
+        - demo code for how to send file via UDP
+
     - W9: How to do submission and testcase 
+        - report content
+        - new credentials.txt and testcase
+        - submission checklist
 
 
 ## Lab1：  
