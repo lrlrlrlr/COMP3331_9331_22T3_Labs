@@ -25,7 +25,7 @@ For M14B and F12A students
         - single login
         - block
         - multiple user login at the sametime
-      - Recording link: (todo)
+      - Recording link:  https://youtu.be/x3NzLFs61w4 
     - W7: assignment structure design 
       - app design / protocol design
       - data structure
