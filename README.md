@@ -37,7 +37,7 @@ For M14B and F12A students
           - UED
           - DTE
           - AED
-        
+        - Recording link: https://youtu.be/kPAz8w62wTI  
     - W8: assignment P2P key functions demo and discussion
         - program stucture for P2P (UDP) part
         - demo code for how to send file via UDP
