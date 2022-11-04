@@ -41,6 +41,7 @@ For M14B and F12A students
     - W8: assignment P2P key functions demo and discussion
         - program stucture for P2P (UDP) part
         - demo code for how to send file via UDP
+        - recording: https://youtu.be/KZYclM8JHE8  
 
     - W9: How to do submission and testcase 
         - report content
