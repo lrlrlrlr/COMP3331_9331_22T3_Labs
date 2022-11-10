@@ -45,6 +45,7 @@ For M14B and F12A students
 
     - W9: How to do submission and testcase 
         - report content
+        	- 1. 
         - new credentials.txt and testcase
         - submission checklist
 
@@ -59,9 +60,58 @@ Note: Please try to run your application with the follwing commands, and check i
  - Check the page 16~17 in SPEC, make sure you have the same output as the examples.
  - try this new [credentials.txt](https://github.com/lrlrlrlr/COMP3331_9331_22t2/blob/main/credentials.txt)  
  
-....  
-{more are coming...}  
+### EDG
+login to Yoda, test the EDG with these commands:  
+- Your code should work properly with:  
+	- `EDG 1 5`
+	- `EDG 2 1000`
+	- `EDG 3 5`
+- Then check you have `Yoda-1.txt`, `Yoda-2.txt`,`Yoda-3.txt` generated in the same folder.  
+- Your code should report the error with:  
+	`EDG 0.1 100` -- invalid fileID  
+	`EDG 4 10.00` -- invalid dataAmount  
+	`EDG 35` -- invalid msg format, no dataAmount provided  
+	
+	
 
+### UED
+ - Use Yoda to issue `UED  ` command, The client should display an error message.
+ - Use Yoda to issue `UED 1` command, then check the logfile *uploadlog.txt*, make sure the format is following the page 5 SPEC:
+ ```
+edgeDeviceName; timestamp; fileID; dataAmount
+Yoda; 10 November 2022 10:31:13; 1; 5
+ ```  
+
+
+### SCS
+ - Make sure you are doing the computation in the Server side.
+ - Use Yoda to issue `SCS 1 MAX` command, The client should display a proper max value for file 1.
+ - try AVERAGE, MIN, SUM at the same way.
+ - try to issue `SCS 1 UNKNOWACTION` command, your client should be able to report the error unknown action.
+ - try to issue `SCS 10 MAX` command, your client should be able to report the error file not exist.
+
+### DTE
+ - Use Yoda to issue `DTE x` command, The client should display an error message invalid fileID.
+ - Use Yoda to issue `DTE 2` command, then check the logfile *deletion-log.txt*, make sure the format is following the page 6 SPEC:
+  ```
+edgeDeviceName; timestamp; fileID; dataAmount
+Yoda; 30 September 2022 10:33:13; 2; 1000
+ ```  
+ - Then check if the file-2 has been deleted in the server side.
+ 
+### AED
+ - login as Yoda, then issue `AED` command, you should get the response “no other active edge devices”;   
+ - login to Hans (and Yoda is also runnning in another terminal), then issue `AED` command in Hans' terminal, then you should be able to see Yoda is online and the UDP port number. Do not show the information about Hans.
+                    
+### OUT
+ - Login to Yoda, check the active user log, yoda should be in the logfile. 
+ - Issue command EDG and UED to upload a file to the server, then issue `OUT`, check the active user log in the server, yoda should not be in the logfile now. Then check Yoda-1.txt, yoda's file should still remain in the server.
+ 
+### P2P (UVF)
+ - Check the code in *client.py*, make sure it is **UDP** instead of **TCP**; (very important)  
+ - Download the video file [ski.mp4](https://github.com/lrlrlrlr/COMP3331_9331_22t2/blob/main/ski.mp4), put it in the same folder with *client.py*.
+ - Login to Yoda only, then issue `UVF` and `UVF Hans Filenotexist.mp4` and `UPD Hans ski.mp4`, your client should prompt an error message. 
+ - Login to Yoda and Hans, then try to run `UPD Hans ski.mp4` in Yoda's terminal, you should be able to find the *yoda_ski.mp4* in the folder, try to play the video, see if it is playable. Also check the size of the video is the same(any packet loss?).
 
 ### What's more
 Please check the **[Assignment SPEC](https://webcms3.cse.unsw.edu.au/static/uploads/course/COMP3331/22T3/79918822df364c1ec515c3f83efd658bbb178433d8bec65b208c81ee7eb7da10/Assigment_22T3V1.pdf)**. Page 17~22, test your program with the examples and make sure you have exactly same output.
