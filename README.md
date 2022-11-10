@@ -108,7 +108,7 @@ Yoda; 30 September 2022 10:33:13; 2; 1000
                     
 ### OUT
  - Login to Yoda, check the active user log, yoda should be in the logfile. 
- - Issue command EDG and UED to upload a file to the server, then issue `OUT`, check the active user log in the server, yoda should not be in the logfile now. Then check Yoda-1.txt, yoda's file should still remain in the server.
+ - Issue command EDG and UED to upload a file to the server, then issue `OUT`, check the active user log in the server, yoda should not be in the logfile edge-device-log.txt now. Then check Yoda-1.txt, yoda's file should still remain in the server.
  
 ### P2P (UVF)
  - Check the code in *client.py*, make sure it is **UDP** instead of **TCP**; (very important)  
