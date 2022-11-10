@@ -48,6 +48,24 @@ For M14B and F12A students
         - new credentials.txt and testcase
         - submission checklist
 
+## Assignment Test Instructions
+Note: Please try to run your application with the follwing commands, and check if you have expected output. This is not an official testcase, just for reference, please always follow the instructions of **[Assignment SPEC](https://webcms3.cse.unsw.edu.au/static/uploads/course/COMP3331/22T2/040c4d358872ea23642cddd25ae78bbe77de773a4772d04bf0ea82612014b4c2/Assigment_22T2-version-1.0.pdf)**.
+
+### login
+ - login with correct password
+ - login with incorrect password, for 3 times. -- the client terminal should shutdown and user should be blocked.
+ - login with with a blocked username, from another client(new terminal).
+ - login with a username that does not exist -- should print out the error
+ - Check the page 16~17 in SPEC, make sure you have the same output as the examples.
+ - try this new [credentials.txt](https://github.com/lrlrlrlr/COMP3331_9331_22t2/blob/main/credentials.txt)  
+ 
+....  
+{more are coming...}  
+
+
+### What's more
+Please check the **[Assignment SPEC](https://webcms3.cse.unsw.edu.au/static/uploads/course/COMP3331/22T3/79918822df364c1ec515c3f83efd658bbb178433d8bec65b208c81ee7eb7da10/Assigment_22T3V1.pdf)**. Page 17~22, test your program with the examples and make sure you have exactly same output.
+
 
 ## Lab1：  
  - [week 1 slides](https://github.com/lrlrlrlr/COMP3331_9331_22T3_Labs/blob/main/week2-lab1.pdf)
