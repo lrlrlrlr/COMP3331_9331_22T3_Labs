@@ -45,7 +45,9 @@ For M14B and F12A students
 
     - W9: How to do submission and testcase 
         - report content
-        	- 1. 
+        	- 1. how to run the script
+        	- 2. what is your application protocol and data structre?
+        	- 3. any bug or trade-off you made for your program? (for example, you have significant delay on UDP file transmission to make sure the reliable file transfer)
         - new credentials.txt and testcase
         - submission checklist
 
