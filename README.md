@@ -19,7 +19,7 @@ We will go through the final exam prepartion on:
 - content: 
 	- final exam general question (when what where how)
 	- final exam important knowledge point (quick review)
-	- sample questions
+	- sample questions (on calculation)
 	- Q&A
 
 ## Assignment demo 
