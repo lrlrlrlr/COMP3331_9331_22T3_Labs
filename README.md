@@ -11,7 +11,16 @@ For M14B and F12A students
  - [MyRecordings](https://www.youtube.com/playlist?list=PL62Uy8LvT4FZjh1fCz9oeLAr9wmlfZJKD)  
  
 
-
+## coming soon:final exam preparation(tut2)
+We will go through the final exam prepartion on:
+ - Monday 14th Nov 14:00 (M14B)
+ - Friday 18th Nov 12:00 (F12A) 
+- online zoom link:  https://unsw.zoom.us/my/ruitut   
+- content: 
+	- final exam general question (when what where how)
+	- final exam important knowledge point (quick review)
+	- sample questions
+	- Q&A
 
 ## Assignment demo 
   I will have assignment demo session for python.  
