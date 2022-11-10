@@ -48,11 +48,12 @@ For M14B and F12A students
         	- 1. how to run the script
         	- 2. what is your application protocol and data structre?
         	- 3. any bug or trade-off you made for your program? (for example, you have significant delay on UDP file transmission to make sure the reliable file transfer)
+        	- ps: 1~2 pages is enough, make it simple and clear.
         - new credentials.txt and testcase
         - submission checklist
 
 ## Assignment Test Instructions
-Note: Please try to run your application with the follwing commands, and check if you have expected output. This is not an official testcase, just for reference, please always follow the instructions of **[Assignment SPEC](https://webcms3.cse.unsw.edu.au/static/uploads/course/COMP3331/22T2/040c4d358872ea23642cddd25ae78bbe77de773a4772d04bf0ea82612014b4c2/Assigment_22T2-version-1.0.pdf)**.
+Note: Please try to run your application with the follwing commands, and check if you have expected output. This is not an official testcase, just for reference, please always follow the instructions of **[Assignment SPEC](https://webcms3.cse.unsw.edu.au/static/uploads/course/COMP3331/22T3/79918822df364c1ec515c3f83efd658bbb178433d8bec65b208c81ee7eb7da10/Assigment_22T3V1.pdf)**.
 
 ### login
  - login with correct password
