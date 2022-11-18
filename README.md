@@ -11,7 +11,7 @@ For M14B and F12A students
  - [MyRecordings](https://www.youtube.com/playlist?list=PL62Uy8LvT4FZjh1fCz9oeLAr9wmlfZJKD)  
  
 
-## coming soon:final exam preparation(tut2)
+## final exam preparation(tut2)
 We will go through the final exam prepartion on:
  - Monday 14th Nov 14:00 (M14B)
  - Friday 18th Nov 12:00 (F12A) 
@@ -21,6 +21,12 @@ We will go through the final exam prepartion on:
 	- final exam important knowledge point (quick review)
 	- sample questions (on calculation)
 	- Q&A
+	- slides: https://github.com/lrlrlrlr/COMP3331_9331_22T3_Labs/blob/main/22T3_3331_tut02_demo.pdf  
+- other useful stuff from last year:  
+  -  w6-w10 wrapup Recording: https://youtu.be/BoPMGeGf4LE 
+  -  review slides: https://github.com/lrlrlrlr/COMP3331_9331_21T3/blob/main/9331review/slides_final_rev.pdf   
+  -  Useful material: https://github.com/lrlrlrlr/COMP3331_9331_21T3/tree/main/9331review/final
+	
 
 ## Assignment demo 
   I will have assignment demo session for python.  
